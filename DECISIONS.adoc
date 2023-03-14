@@ -1,0 +1,9 @@
+= Decision-Making Framework
+
+== Proposal
+
+Design and process decision proposals should be made to the `rushassets-dev`
+Google group (https://groups.google.com/forum/#!forum/rushassets-dev[on the web]
+or mailto:rushassets-dev@groups.google.com[over e-mail]).
+
+Working in progress
