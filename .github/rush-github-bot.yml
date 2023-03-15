@@ -2,7 +2,7 @@ features: [ALL]
 
 triage:
   rules:
-    - id: bug-label
+    - id: kind-bug
       labels: [kind/bug]
       titleBody: "bug"
       notify: [rubenskj]
