@@ -22,5 +22,7 @@ triage:
       titleBody: "(docs|documentation|)"
       notify: [rubenskj]
         
+# Add more rules in here
+        
   qe:
     notify: [rubenskj]
