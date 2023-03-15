@@ -1,0 +1,16 @@
+features: [ALL]
+
+triage:
+  rules:
+    - id: bug-label
+      labels: [kind/bug]
+      title: "bug"
+      notify: [rubenskj]
+      
+    - id: draggable-controller
+      labels: [area/draggable]
+      titleBody: "(drag|draggable)"
+      notify: [rubenskj]
+        
+  qe:
+    notify: [rubenskj]
