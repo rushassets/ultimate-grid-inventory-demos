@@ -1,4 +1,4 @@
-features: [ALL]
+features: [ TRIAGE_DISCUSSIONS, TRIAGE_ISSUES_AND_PULL_REQUESTS, SET_AREA_LABEL_COLOR, NOTIFY_QE ]
 
 triage:
   rules:
@@ -7,9 +7,19 @@ triage:
       titleBody: "bug"
       notify: [rubenskj]
       
+    - id: kind-enhancement
+      labels: [kind/enhancement]
+      titleBody: "(feature|enhancement)"
+      notify: [rubenskj]
+      
     - id: asset-core-system
       labels: [area/system]
       titleBody: "(drag|draggable|input controller|highlighter|options system)"
+      notify: [rubenskj]
+      
+    - id: documentations
+      labels: [area/documentation]
+      titleBody: "(docs|documentation|)"
       notify: [rubenskj]
         
   qe:
