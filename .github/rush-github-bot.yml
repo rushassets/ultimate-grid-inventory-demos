@@ -4,12 +4,12 @@ triage:
   rules:
     - id: bug-label
       labels: [kind/bug]
-      title: "bug"
+      titleBody: "bug"
       notify: [rubenskj]
       
-    - id: draggable-controller
-      labels: [area/draggable]
-      titleBody: "(drag|draggable)"
+    - id: asset-core-system
+      labels: [area/system]
+      titleBody: "(drag|draggable|input controller|highlighter|options system)"
       notify: [rubenskj]
         
   qe:
