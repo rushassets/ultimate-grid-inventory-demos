@@ -19,7 +19,7 @@ triage:
       
     - id: documentations
       labels: [area/documentation]
-      titleBody: "(docs|documentation|)"
+      titleBody: "(docs|documentation)"
       notify: [rubenskj]
         
 # Add more rules in here
