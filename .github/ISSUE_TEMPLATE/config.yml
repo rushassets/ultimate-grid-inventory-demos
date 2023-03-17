@@ -1,0 +1,17 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Question
+    url: https://docs.rushassets.com/docs/ultimate-grid-inventory
+    about: I have a question about how to use the Asset.
+
+  - name: Discussions
+    url: https://github.com/rushassets/ultimate-grid-inventory-demos/discussions
+    about: Open Community discussions related to Ultimate Grid Inventory. 
+
+  # - name: Rush Zulip chat
+  #   url: https://rushassets.zulipchat.com/
+  #   about: If you prefer live chat with the developers, we have a Zulip chat where we all hang out.
+
+  - name: Rush Development mailing list 
+    url: https://groups.google.com/forum/#!forum/rushassets-dev
+    about: You can also ask questions on our mailing list.
