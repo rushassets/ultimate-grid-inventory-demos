@@ -98,6 +98,15 @@ triage:
       labels: [area/scroll]
       titleBody: "(scroll|scrollable)"
       notify: [rubenskj]
+      
+    - id: windows
+      labels: [env/windows]
+      titleBody: "windows"
+      
+    - id: m1
+      labels: [env/m1]
+      titleBody: "\\bm1\\b"
+      notify: [rubenskj]
         
 # Add more rules in here
         
