@@ -68,7 +68,7 @@ triage:
       
     - id: right-options
       labels: [area/right-options]
-      titleBody: "(right-options|options|selection)"
+      titleBody: "(right-options|options|selection|item option)"
       notify: [rubenskj]
       
     - id: holders
@@ -78,12 +78,27 @@ triage:
       
     - id: items
       labels: [area/items]
-      titleBody: "(items|containers|item|container)"
+      titleBody: "(items|containers|item|container|item data so)"
       notify: [rubenskj]
       
     - id: item-containers
       labels: [area/containers]
       titleBody: "(container item|container|containers)"
+      notify: [rubenskj]
+      
+    - id: icon-size
+      labels: [area/images,area/icon-size]
+      titleBody: "(icon-sizes|item icons|items icons|item icon image)"
+      notify: [rubenskj]
+      
+    - id: audio
+      labels: [area/audio]
+      titleBody: "(audio|audios|sound|sounds|cue)"
+      notify: [rubenskj]
+      
+    - id: scroll
+      labels: [area/scroll]
+      titleBody: "(scroll|scrollable)"
       notify: [rubenskj]
         
 # Add more rules in here
