@@ -32,8 +32,13 @@ triage:
       notify: [rubenskj]
      
     - id: youtube
-      labels: [area/youtube]
-      titleBody: "youtube"
+      labels: [area/social-media,area/youtube]
+      titleBody: "(youtube|yt)"
+      notify: [rubenskj]
+      
+    - id: instagram
+      labels: [area/social-media,area/instagram]
+      titleBody: "(instagram|insta)"
       notify: [rubenskj]
       
     - id: demo
