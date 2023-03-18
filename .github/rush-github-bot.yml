@@ -23,13 +23,6 @@ triage:
       labels: [area/documentation]
       titleBody: "(docs|documentation|documentations|readme|.md)"
       notify: [rubenskj]
-    
-    - id: asset-ultimate-grid-inventory-changes
-      labels: [asset/ultimate-grid-inventory]
-      titleBody: "(inventory|ultimate-grid-inventory|ugi)"
-      files:
-        - Assets/Inventory/
-      notify: [rubenskj]
      
     - id: youtube
       labels: [area/social-media,area/youtube]
