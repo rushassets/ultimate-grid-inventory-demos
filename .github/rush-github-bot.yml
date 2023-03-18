@@ -37,11 +37,6 @@ triage:
       titleBody: "(docs.rushassets|docs rushassets)"
       notify: [rubenskj]
       
-    - id: rushassets.com
-      labels: [area/rushassets]
-      titleBody: "rushassets"
-      notify: [rubenskj]
-      
     - id: documentations
       labels: [area/documentation]
       titleBody: "(docs|documentation|documentations|readme|.md)"
