@@ -21,7 +21,7 @@ triage:
       
     - id: documentations
       labels: [area/documentation]
-      titleBody: "(docs|documentation|documentations)"
+      titleBody: "(docs|documentation|documentations|readme|.md)"
       notify: [rubenskj]
     
     - id: asset-ultimate-grid-inventory-changes
@@ -43,7 +43,7 @@ triage:
       
     - id: demo
       labels: [area/demonstration]
-      titleBody: "(demo|demonstration|demos|demonstrations|readme|.md)"
+      titleBody: "(demo|demonstration|demos|demonstrations)"
       notify: [rubenskj]
       
     - id: world
