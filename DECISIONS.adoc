@@ -7,3 +7,4 @@ Google group (https://groups.google.com/forum/#!forum/rushassets-dev[on the web]
 or mailto:rushassets-dev@groups.google.com[over e-mail]).
 
 Working in progress
+
