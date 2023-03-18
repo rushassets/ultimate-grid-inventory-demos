@@ -32,6 +32,16 @@ triage:
         - Assets/Inventory/Scripts/Controllers/
       notify: [rubenskj]
       
+    - id: docs.rushassets.com
+      labels: [area/docs.rushassets]
+      titleBody: "(docs.rushassets|docs rushassets)"
+      notify: [rubenskj]
+      
+    - id: rushassets.com
+      labels: [area/rushassets]
+      titleBody: "rushassets"
+      notify: [rubenskj]
+      
     - id: documentations
       labels: [area/documentation]
       titleBody: "(docs|documentation|documentations|readme|.md)"
