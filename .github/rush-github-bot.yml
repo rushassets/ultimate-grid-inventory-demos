@@ -1,4 +1,17 @@
-features: [ TRIAGE_DISCUSSIONS, TRIAGE_ISSUES_AND_PULL_REQUESTS, SET_AREA_LABEL_COLOR, NOTIFY_QE ]
+features: [ TRIAGE_DISCUSSIONS, TRIAGE_ISSUES_AND_PULL_REQUESTS, SET_AREA_LABEL_COLOR, NOTIFY_QE, PUSH_TO_PROJECTS ]
+
+projects:
+  rules:
+    - labels: [kind/bug]
+      project: 1
+      issues: true
+      pullRequests: true
+      status: Todo
+    - labels: [kind/enhancement]
+      project: 1
+      issues: true
+      pullRequests: true
+      status: Todo
 
 triage:
   rules:
