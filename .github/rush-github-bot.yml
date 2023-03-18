@@ -7,6 +7,11 @@ projects:
       issues: true
       pullRequests: true
       status: Todo
+    - labels: [kind/epic]
+      project: 1
+      issues: true
+      pullRequests: true
+      status: Todo
     - labels: [kind/enhancement]
       project: 1
       issues: true
