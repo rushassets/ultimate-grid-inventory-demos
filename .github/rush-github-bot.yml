@@ -15,11 +15,75 @@ triage:
     - id: asset-core-system
       labels: [area/system]
       titleBody: "(drag|draggable|input controller|highlighter|options system)"
+      files:
+        - Assets/Inventory/Scripts/Controllers/
       notify: [rubenskj]
       
     - id: documentations
       labels: [area/documentation]
-      titleBody: "(docs|documentation)"
+      titleBody: "(docs|documentation|documentations)"
+      notify: [rubenskj]
+    
+    - id: asset-ultimate-grid-inventory-changes
+      labels: [asset/ultimate-grid-inventory]
+      titleBody: "(inventory|ultimate-grid-inventory|ugi)"
+      files:
+        - Assets/Inventory/
+      notify: [rubenskj]
+     
+    - id: youtube
+      labels: [area/youtube]
+      titleBody: "youtube"
+      notify: [rubenskj]
+      
+    - id: demo
+      labels: [area/demonstration]
+      titleBody: "(demo|demonstration|demos|demonstrations)"
+      notify: [rubenskj]
+      
+    - id: world
+      labels: [area/world]
+      titleBody: "(2d world|3d world|world)"
+      notify: [rubenskj]
+        
+    - id: ux-ui
+      labels: [area/ux-ui]
+      titleBody: "(ux|ui|user interface|user experience)"
+      notify: [rubenskj]
+      
+    - id: save-system
+      labels: [area/save-system]
+      titleBody: "(save|save system|saves)"
+      notify: [rubenskj]
+      
+    - id: integration
+      labels: [area/integration]
+      titleBody: "(integration|api)"
+      notify: [rubenskj]
+      
+    - id: grids
+      labels: [area/grids]
+      titleBody: "(inventory grid|grid inventory|grid inventories|grid)"
+      notify: [rubenskj]
+      
+    - id: right-options
+      labels: [area/right-options]
+      titleBody: "(right-options|options|selection)"
+      notify: [rubenskj]
+      
+    - id: holders
+      labels: [area/holders]
+      titleBody: "(holders|item holder|container holder|holder)"
+      notify: [rubenskj]
+      
+    - id: items
+      labels: [area/items]
+      titleBody: "(items|containers|item|container)"
+      notify: [rubenskj]
+      
+    - id: item-containers
+      labels: [area/containers]
+      titleBody: "(container item|container|containers)"
       notify: [rubenskj]
         
 # Add more rules in here
