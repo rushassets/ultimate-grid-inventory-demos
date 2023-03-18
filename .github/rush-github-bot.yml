@@ -43,7 +43,7 @@ triage:
       
     - id: demo
       labels: [area/demonstration]
-      titleBody: "(demo|demonstration|demos|demonstrations)"
+      titleBody: "(demo|demonstration|demos|demonstrations|readme|.md)"
       notify: [rubenskj]
       
     - id: world
