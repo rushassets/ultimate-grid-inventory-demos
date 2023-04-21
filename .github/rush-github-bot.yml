@@ -12,7 +12,7 @@ projects:
       issues: true
       pullRequests: true
       status: Todo
-    - labels: [kind/enhancement]
+    - labels: [kind/enhancement, area/housekeeping]
       project: 1
       issues: true
       pullRequests: true
